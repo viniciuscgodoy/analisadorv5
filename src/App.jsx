@@ -550,10 +550,10 @@ const AnimalWeightAnalyzer = () => {
                 onDrop={handleDrop}
               >
                 <Upload className="mx-auto h-16 w-16 text-green-600 mb-6" />
-                <p className="text-xl font-semibold text-green-700 mb-2">
+                <p className="text-xl font-semibold text-white-700 mb-2">
                   Arraste e solte sua planilha aqui
                 </p>
-                <p className="text-green-600 mb-4">ou</p>
+                <p className="text-white-600 mb-4">ou</p>
                 <Button asChild className="btn-primary">
                   <label className="cursor-pointer">
                     <Upload size={20} className="mr-2" />
@@ -566,7 +566,7 @@ const AnimalWeightAnalyzer = () => {
                     />
                   </label>
                 </Button>
-                <p className="text-sm text-green-600 mt-4">
+                <p className="text-sm text-white mt-4">
                   Formatos suportados: CSV, Excel (.xlsx, .xls)
                 </p>
                 <p className="text-xs text-white mt-2">
