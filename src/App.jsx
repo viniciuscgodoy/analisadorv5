@@ -569,7 +569,7 @@ const AnimalWeightAnalyzer = () => {
                 <p className="text-sm text-green-600 mt-4">
                   Formatos suportados: CSV, Excel (.xlsx, .xls)
                 </p>
-                <p className="text-xs text-green-500 mt-2">
+                <p className="text-xs text-white mt-2">
                   Colunas necessárias: ANIMAL, DATA, PESO, LOCAL, SEXO, MESES
                 </p>
               </div>
